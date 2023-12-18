@@ -1,0 +1,215 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Legacy</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="icon" href="{% static 'images/VintageLogo.jpeg' %}" type="image/jpeg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var body = document.body;
+
+            body.style.backgroundImage = "url('{% static 'images/Mens-Summer-Fashion-1930s.jpg' %}')";
+        });
+    </script>
+
+</head>
+<body>
+    
+    <header>
+        <div class="contactinfo">
+            <i class='bx bxl-facebook'></i></a>
+            <i class='bx bxl-linkedin'></i></a>
+            <i class='bx bxl-instagram'></i></a>
+            <div class="twitter">
+                <i class='bx bxl-twitter'  ></i></box-icon></a>
+            </div>
+
+            <i class='bx bx-phone'></i></box-icon></a>
+            <p>+1 (987) 123-3456</p>
+
+            <i class='bx bx-envelope'  ></i></a>
+            <div class="vintage">
+                <p>VintageLegacy@package.com</p>
+            </div>
+
+            <div class="locationinfo">
+                <div class="map">
+                    <a href="#"><i class='bx bx-map'></i></a>
+                </div>
+                <p class="US">United States</p>
+
+                <a href=""><i class='bx bx-search'></i></a>
+                <a href=""><i class='bx bx-heart'></i></a>
+                <div class="profile">
+                    <a href="account.html"><i class='bx bx-user'></i></a>
+                </div>
+
+                <a href="signin">Log In <b>|</b> <a href="signup "> Sign Up</a>
+            </div>
+
+        </div>
+
+        <br>
+
+    <div class="bar">
+
+        <input type="checkbox" id="check">
+        <label class="check" for="check">
+            <i class='bx bx-menu' id="btn"></i> 
+
+        </label>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#home">DashBoard</a></li>
+                <li><a href="#home">OverView</a></li>
+                <li><a href="#categories">T-Shirts</a></li>
+                <li><a href="#categories">Watches</a></li>
+                <li><a href="#categories">Jeans</a></li>
+                <li><a href="#categories">Accessories</a></li>
+            </ul>
+        </div>
+    
+    <div class="header2">
+        <div class="head10">
+            <nav class="navigator">
+                <a href="#home">HOME</a>
+                <a href="#categories">CATEGORIES</a>
+                <a href="#product">PRODUCTS</a>
+                <a href="#aboutus">ABOUT US</a>
+            </nav>
+    </div>
+
+    <div class="head20">
+        <div class="gallery">
+            <a href="">GALLERY</a>
+        </div>
+        <div class="testimonials">
+            <a href="">TESTIMONIALS</a>
+        </div>
+        <div class="contact">
+            <a href="#contactus">CONTACT US</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="textimg">
+    <div class="text">Vintage Legacy : Old Money Clothing Brand</div>
+</header>
+
+<body>
+    <section id="home">
+        <hr>
+        <h1>Vintage Legacy's Home </h1>
+        <br>
+        <p>At Vintage Legacy, we transcend time, curating an exquisite ensemble that seamlessly weaves the opulence of yesteryears into modern fashion. Our collection, spanning from accessories to clothing, resonates with the allure of old money aesthetics. Each piece is a testament to enduring elegance and refined craftsmanship, encapsulating the spirit of a bygone era. As a distinguished arbiter of sophistication, Vintage Legacy is more than a brand; it is a sanctuary for those who appreciate the enduring charm of vintage styles. Step into a world where tradition meets contemporary allure, and discover the finest expressions of old money looks.
+    </p>
+    <br>
+
+    <div class="image-container">
+        <img src="{% static 'images/oldmoneylook.webp' %}" alt="Vintage Legacy" width="350" height="300">
+    </div>
+        <hr>
+    </section>
+
+    <section id="categories">
+        <h1>
+            Vintage Legacy's Categories
+        </h1>
+        <div class="imagesconatiner">
+            <img src="{% static 'images/polo-tshirts.jpeg' %}" alt="" height="300" width="300">
+            <img src="{% static 'images/pants.jpg' %}" alt="" height="300" width="300">
+            <img src="{% static 'images/Patina-Shoes.jpg' %}" alt="" height="300" width="300">
+            <img src="{% static 'images/sunglasses.webp' %}" alt="" height="300" width="300">
+            <img src="{% static 'images/watches.jpeg' %}" alt="" height="300" width="300">
+            <img src="{% static 'images/ee7b7629e7e443fac3521ef4cf753361.jpg' %}" alt="" height="300" width="300">
+
+
+           </div>
+    </section>
+
+    <section id="aboutus">
+        <h1>Vintage Legacy's About Us</h1>
+        <hr>
+        <img src="{% static 'images/VintageLogo.jpg' %}" alt="" height="450" width="250">
+        <p>
+            In the heart of a quaint town, Vintage Legacy emerged as more than a store—it became a living tale of timeless elegance. Nestled amidst cobblestone streets, the boutique whispered stories of bygone eras through its curated treasures. Each piece told a narrative, a thread connecting the present to the allure of the past. From opulent accessories to carefully crafted clothing, Vintage Legacy transported patrons to a world where sophistication met craftsmanship.
+
+        The shop's founder, a connoisseur of refined taste, had envisioned a haven where old-money aesthetics found a contemporary embrace. Visitors strolled through history, their footsteps echoing tales of elegance and enduring style. Vintage Legacy, with its rich tapestry of curated artifacts, wasn't just a store; it was a sanctuary where every item narrated a story of grace and legacy, inviting all to immerse themselves in the timeless embrace of its narrative.
+        <hr>
+    </p>
+    </section>
+
+    <section class="contactus" id="contactus">
+        
+     <form action="POST">
+        <h1>Vintage Legacy's Contact</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <div class="input-box">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </div>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Get to Know Us</h3>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Press Releases</a>
+            <a href="#">Vintage Legacy Cares</a>
+            <a href="#">Gift a Smile</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Make Money with Us</h3>
+            <a href="#">Sell on Vintage Legacy</a>
+            <a href="#">Sell under Vintage Legacy Accelerator</a>
+            <a href="#">Become an Affiliate</a>
+            <a href="#">Advertise Your Products</a>
+            <a href="#">Self-Publish with Us</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Vintage Legacy Payment Products</h3>
+            <a href="#">Vintage Legacy Business Card</a>
+            <a href="#">Shop with Points</a>
+            <a href="#">Reload Your Balance</a>
+            <a href="#">Vintage Legacy Currency Converter</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Let Us Help You</h3>
+            <a href="#">Your Account</a>
+            <a href="#">Your Orders</a>
+            <a href="#">Shipping Rates & Policies</a>
+            <a href="#">Returns & Replacements</a>
+            <a href="#">Manage Your Content and Devices</a>
+        </div>
+    </div>
+
+
+
+    <div class="footer-social">
+        <a href="#" target="_blank">V</a>
+        <a href="#" target="_blank">L</a>
+    </div>
+</footer>
+
+</body>
+</html>

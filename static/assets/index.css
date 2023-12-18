@@ -1,0 +1,356 @@
+*
+{
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+}
+i
+{
+    font-size: 20px; 
+    margin-right: 5px;
+}
+.contactinfo, .contactinfo p
+{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+.contactinfo p
+{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.twitter
+{
+    margin-right: 10px;
+}
+.vintage
+{
+    margin-right: 400px;
+}
+.locationinfo, .locationinfo p
+{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.locationinfo p
+{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.profile
+{
+    margin-left: 10px;
+}
+.US
+{
+    margin-right: 20px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: white;
+    left: -250px; /* Initially hide the sidebar */
+    transition: left 0.5s ease;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 65px;
+    font-size: 20px;
+    color: black;
+    line-height: 65px;
+}
+
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: black;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+}
+
+.header2 
+{
+    padding-top: 5px;
+    display: flex;
+    margin-left: 10px;
+}
+.head20
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-right: -250;
+}
+.gallery, .testimonials, .contact
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.bar
+{
+    display: flex;
+    margin-top: 0;
+}
+.home, .categories, .products,.aboutus
+{
+    padding-right: 5px;
+}
+.head10 a
+{
+    padding-right: 5px;
+}
+.check
+{
+    margin-bottom: 100px;
+}
+header
+{
+    background-image: url(images/Mens-Summer-Fashion-1930s.jpg);
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+i, p, a
+{
+    color: rgb(18, 24, 8);
+    text-decoration: none;
+}
+.textimg
+{
+    display: inline;
+}
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25%;
+    margin-top: 0;
+    margin-left: 30% ;
+    color: rgb(238, 174, 14);
+}
+#home {
+    background-color: rgb(28, 25, 25);
+    padding: 50px;
+    color: rgb(245, 233, 233);
+}
+
+#home hr {
+    margin-right: 600px;
+    color: gray;
+}
+
+#home h1 {
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+#home p {
+    color: rgb(245, 233, 233);
+    font-size: 20px;
+    position: absolute;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+#home .image-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#home img 
+{
+    float: right;
+    width: 45%;
+    margin-bottom: 70px;
+}
+#categories h1
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+#categories img
+{
+    margin: 20px;
+    padding: 20px;
+
+}
+#categories
+{
+    background-color: rgb(236, 235, 227);
+    margin: 0;
+}
+#aboutus img
+{
+    float: left;
+    width: 40%;
+    padding: 30px;
+}
+#aboutus p
+{
+    font-size: 22px;
+    padding: 20px;
+    width: 80%;
+    text-align: end;
+    margin-right:30px ;
+    color: rgb(236, 235, 227);
+}
+#aboutus h1
+{
+    font-size: 50px;
+    padding: 15px;
+    text-align: center;
+    color:rgb(236, 235, 227) ;
+}
+#aboutus 
+{
+    background-color: black;
+}
+#aboutus hr
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+.contactus
+{
+    display: flex;
+    justify-content: center;
+}
+.contactus h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+.contactus 
+{
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contactus form 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactus h1 
+{
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+.input-box 
+{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.contactus input, textarea 
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus 
+{
+    border-color: #3498db;
+}
+
+.btn 
+{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+.contactus
+{
+    background-color: rgb(236, 235, 227);;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #b2b2b2;
+}
+
+.footer-section a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #ccc;
+    font-size: 28px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #fff;
+}
